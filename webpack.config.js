@@ -5,7 +5,6 @@ const loader = require('sass-loader');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TersePlugin = require('terser-webpack-plugin');
 const { cleanWebpackPlugin } = require('clean-webpack-plugin');
-const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const { mode } = require('./webpack.config.dev');
 
 module.exports = {
