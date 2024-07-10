@@ -2,7 +2,6 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const loader = require('sass-loader');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TersePlugin = require('terser-webpack-plugin');
 const { cleanWebpackPlugin } = require('clean-webpack-plugin');
 const { mode } = require('./webpack.config.dev');
